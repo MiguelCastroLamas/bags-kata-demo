@@ -1,0 +1,23 @@
+{
+	"name": "miguelcastro/bags-kata-demo",
+	"description": "Application that helps users organize the items in his storages",
+	"authors": [
+		{
+			"name": "Miguel Castro",
+			"email": "miguelcastrotic@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"": "tests/"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.3"
+	}
+}
